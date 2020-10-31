@@ -24,17 +24,20 @@ $ doas -s
 # cd ~
 </pre>
 <br>
+
 1. Install all dependendencys:<br><b>Tip</b>: You can also use the `-git` versions from the AUR to get the latest builds.
 <pre>
 # pacman -S --needed archiso arch-install-scripts
 </pre>
 <br>
+
 2. Get the archiso base system: 
 <pre>
 # cp -r /usr/share/archiso/configs/releng ~/<i>archiso</i>
 # cd ~/<i>archiso</i>
 </pre>
 <br>
+
 3. Clone this repo:
 <pre>
 # mkdir -p ~/<i>archiso</i>/airootfs/etc/calamares
@@ -42,6 +45,7 @@ $ doas -s
 # rm -rf ~/<i>archiso</i>/airootfs/etc/calamares/pkgbuilds
 </pre>
 <br>
+
 4. Create a squashfs (it has to contain at least the essential packages, but if you want your ISO to work offline, 
 add all packages here and remove them from modules/packages.conf):<br><b>Tips</b>:
 <ul>
@@ -62,7 +66,7 @@ add all packages here and remove them from modules/packages.conf):<br><b>Tips</b
 </pre>
 
 5. Create a package for calamares:<br><b>Tip</b>: You can use the provided PKGBUILD for this, just make shure that, if you use the stable version,
-you make shure the version string at the top matches the last version on https://github.com/calamares/calamares/releases
+the version string (`pkgver`) at the top matches the last version on https://github.com/calamares/calamares/releases
 
 6. Create the ISO:
 <pre>
