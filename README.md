@@ -98,6 +98,7 @@ Now got to the bottom of the file and add this to the bottom:</i><br><b>Tips</b>
 <ul>
   <li>You can replace the <code>file:///home/...</code> part with an online repo, just use https://example.com/path/to/repo or http://example.com/path/to/repo. </li>
   <li>The name in the square brackets must match the name you've givven your repository earlier. For example, "archiso.db.tar.gz" would be "archiso".</li>
+</ul>
 <pre>
 [<i>archiso</i>]
 SigLevel = Optional TrustAll
