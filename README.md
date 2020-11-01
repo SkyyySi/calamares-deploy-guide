@@ -113,3 +113,5 @@ Server = file:///<i>home/USERNAME/archiso/repository</i>
 </pre>
 
 Once you're done, you will find your ISO in the out/ directory.
+<br><br><br><br><br><br><br><br><br><br>
+COPYRIGHT AND TRADEMARK DISCLAIMER: This project not affiliated or associated with, sponsored or endorsed by or in any way officially connected with Arch Linux and/or calamares.
